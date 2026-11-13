@@ -37,7 +37,7 @@ if st.button("Predict Stock Price"):
     prediction = model.predict(features)[0]
     
     # Display predictions
-    st.success(f"### 🎯 Predicted Stock Price: **${prediction:.2f}**")
+    st.success(f"### 🎯 Predicted Stock Price: **₹{prediction:.2f}**")
     
     # Display details
     st.write("**Input Summary:**")
